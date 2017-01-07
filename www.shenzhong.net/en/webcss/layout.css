@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*页面头部*/
+.index_body{ width:1002px; margin:0px auto;}
+.index_top{ padding-bottom:20px;}
+.index_top p{ text-align:right; padding:10px 0px;}
+.index_top p a{ padding:0px 5px; display:inline-block;}
+.index_top p a:hover{ color:#146e3c;}
+.top_menu{}
+.top_menu ul{ float:right; width:515px;}
+.top_menu ul li{ float:left; padding:10px 20px;}
+.top_menu ul li.li_cur{ padding:10px 0px 10px 20px;}
+.top_menu ul li a{ font-size:14px; display:.news_list ul liinline-block; padding-bottom:10px;}
+.top_menu ul li a:hover{ color:#146e3c; border-bottom:1px solid #146e3c;}
+
+/* banner滚动部分 */
+.index_banner{ margin:0px 0px 5px; height:440px; overflow:hidden;}
+.ban_leftbar{ float:left; width:640px; position:relative; z-index:1;}
+.ban_rightbar{ float:right; width:355px;}
+.ban_rightbar h3{ font-size:18px; color:#333; font-weight:bold; padding:10px;}
+.ban_rightbar p{ padding:0px 10px; line-height:18px;}
+.ban_rightbar span{ background:url(../webimages/index_29.png) no-repeat; display:inline-block; width:71px; height:24px; line-height:24px; text-align:center; margin:10px;}
+
+.ban_scroll{ position:relative; z-index:1; width:640px; height:440px; overflow:hidden;}
+.ban_scroll ul{ width:9999px; position:absolute;}
+.ban_scroll ul li{ float:left;}
+.ban_btn{ position:absolute; bottom:20px; left:50%; z-index:2;}
+.ban_btn a{ display:inline-block; background:url(../webimages/index_07.png) no-repeat; width:7px; height:7px; margin-right:5px;}
+.ban_btn a:hover,.ban_btn a.cur{ background:url(../webimages/index_09.png) no-repeat;}
+
+/* 新闻部分 */
+.index_news{ margin-bottom:5px;}
+.news_leftbar{ float:left; width:640px; height:250px; overflow:hidden;}
+.news_rightbar{ float:right; width:355px; position:relative; z-index:2;}
+.ban_rightbar h3{ font-size:18px; color:#333}
+
+.history{ float:left; width:260px; padding:10px 15px; background:#ececec; height:250px;}
+.history h3{ font-size:16px; color:#333; font-weight:bold; padding-bottom:10px;}
+.history h3 a{ float:right; font-weight:normal; font-size:12px; color:#666;}
+.history dl{ border-bottom:2px solid #dfdfdf; padding-bottom:10px; margin-bottom:10px; height:50px; overflow:hidden;}
+.history dl.dl_cur{ border-bottom:none;}
+.history dl dt{ float:left; width:30px; height:40px; background:#fff; text-align:center; padding:5px 10px; color:#bfbfbf; overflow:hidden}
+.history dl dt h4{ border-bottom:1px solid #ccc; font-size:24px; font-weight:bold; padding-bottom:5px;_padding-bottom:5px;}
+.history dl dt span{ display:block; padding:0px;}
+.history dl dd{ float:right; width:200px; line-height:18px; padding:5px 0px; height:35px; overflow:hidden;}
+.history dl.cur dt{ background:#146e3c; color:#fff;}
+.history dl.cur dt h4{ border-bottom:1px solid #fff; }
+
+.news_con{ float:right; width:340px; height:250px; overflow:hidden;}
+.news_list{ padding:10px;}
+.news_list h3{ font-size:16px; color:#146e3c; font-weight:bold; padding-bottom:10px;}
+.news_list ul{}
+.news_list ul li{ line-height:18px; padding-bottom:5px; height:53px; overflow:hidden;}
+.news_list ul li em{ display:block; color:#999; text-transform:uppercase;}
+.news_list span{ display:block; background:url(../webimages/index_25.png) no-repeat; width:70px; height:26px; line-height:26px;  text-align:center; margin-top:5px;}
+.news_list span a{ color:#fff;}
+
+.news_rightbar span{ display:inline-block; width:28px; height:48px; position:absolute; top:100px; cursor:pointer; z-index:2;}
+.news_rightbar span.index_prve{ background:url(../webimages/index_14.png) no-repeat; left:0px;}
+.news_rightbar span.index_next{ background:url(../webimages/index_16.png) no-repeat; right:0px;}
+.news_scrooll{ width:355px; height:250px; position:relative; z-index:1; overflow:hidden;}
+.news_scrooll ul{ position:absolute; width:9999px;}
+.news_scrooll ul li{ float:left; position:relative; z-index:1;}
+.news_scrooll ul li .li_hover{ background:url(../webimages/index_03.png) repeat; position:absolute; left:0px; bottom:0px; color:#fff; padding:10px 15px;}
+.news_scrooll ul li .li_hover p{ line-height:18px;}
+
+/* 联系我们部分 */
+.his_img{ float:left; width:260px;}
+.about_con{ background:#ececec; position:relative; z-index:1;}
+.about{ padding:15px;}
+.about h3{ text-transform:uppercase; padding:5px 0px;}
+.about h3 a{ font-size:16px; color:#333; font-weight:bold;}
+.about p{ line-height:18px;}
+.about span{ background:url(../webimages/index_29.png) no-repeat; width:72px; height:24px; text-align:center; line-height:24px; display:block;position:absolute; left:15px; bottom:25px;}
+.contact_con{ float:right; width:325px; background:url(../webimages/index_21.jpg) no-repeat right bottom; height:220px; padding:15px; position:relative; z-index:1;}
+.contact_con h3{ font-size:16px; color:#333; font-weight:bold;text-transform:uppercase; padding:5px 0px;}
+.contact_con span{ background:url(../webimages/index_29.png) no-repeat; width:72px; height:24px; text-align:center; line-height:24px; display:block; margin-top:30px; position:absolute; bottom:25px; left:15px;}
+
+/* 底部 */
+.index_footer{ background:#333; padding:10px 0px;}
+.footer{ color:#fff; width:1002px; margin:0px auto;}
+.footer p{ padding:5px 0px;}
+.footer a{ color:#fff;}
+.footer span{ float:right;}
+.footer img.wj{ width:50px; height:50px; display:inline-block;}
+
+/* 4-17 */
+/* 关于我们 */
+.ny_con{}
+.ny_bt{ margin:10px 0px; border-bottom:1px solid #d9d9d9; padding-bottom:10px;}
+.ny_bt p{ float:right;color:#039242; }
+.ny_bt p a{color:#039242; font-size:14px;}
+.ny_bt h3{ font-size:26px; color:#039242; border-left:5px solid #039242; padding:8px 0px 8px 10px;}
+
+.nyabout_con{ padding:20px 0px;}
+.nyabout_con img.img_right{ float:right; padding-left:10px;}
+.nyabout_con p.img_center{ text-align:center;}
+
+/* 联系方式 */
+.nycontact_con{ padding:20px 0px;}
+.nycontact_con p{ font-size:14px; line-height:25px;}
+.nycontact_con h3.tact_h3{ font-size:18px; padding:20px 0px;}
+.nycontact_con ul{ background:#ededed; padding:60px 80px; margin:30px 0px;}
+.nycontact_con ul li{ float:left; width:158px; margin-right:70px;}
+.nycontact_con ul li.cur{ margin-right:0px;}
+.nycontact_con ul li h3{ background:url(../webimages/contactbg_03.jpg) no-repeat; text-align:center; width:158px; height:158px;}
+.nycontact_con ul li h3 img{ display:inline-block; padding-top:20px;}
+.nycontact_con ul li p{ text-align:center; width:158px; padding:5px 0px; background:#0e4d2a; color:#fff; font-size:14px; margin-top:10px; text-transform:uppercase;}
+
+/* 大事记 */
+.nyhistory_con{ padding:20px 0px;}
+.nyhistory_con dl{ border:1px solid #e8e8e8; padding:30px 25px; margin-bottom:20px;}
+.nyhistory_con dl dt{ float:left; width:80px; background:url(../webimages/his_07.jpg) no-repeat; height:95px; color:#fff; text-align:center;}
+.nyhistory_con dl dd{ float:right; width:840px;}
+.nyhistory_con dl dt h3{ font-size:48px; font-weight:bold; height:60px; line-height:60px;}
+.nyhistory_con dl dd h3{ padding-bottom:5px;}
+.nyhistory_con dl dd h3 a{ font-size:18px; color:#333;}
+.nyhistory_con dl dd span{ display:block; color:#999; padding-bottom:10px;}
+.fy_page{ padding:45px 0px;}
+
+.nyhistory_info{ padding:20px 0px;}
+.info_bt{ text-align:center;}
+.info_bt h3{ font-size:24px; color:#333; border-bottom:1px solid #ddd; padding-bottom:10px;}
+.info_bt span{ display:block; font-size:13px; padding:10px 0px;}
+.info_con{}
+.info_con p{ font-size:13px;}
+.info_con p.img_center{ text-align:center;}
+
+.info_page{ padding:50px 0px;}
+.info_page a.back{ background:#2363a7 url(../webimages/info_07.jpg) no-repeat 15px; padding:8px 20px 8px 35px; display:inline-block; font-size:18px; color:#fff; margin-bottom:10px;}
+.info_page p{}
+.info_page p a{ font-size:13px;}
+
+.link{width:1002px; margin:0px auto;}
+.link dl{padding-bottom:10px; color:#fff;}
+.link dl dt{ float:left;}
+.link dl dd{ float:right; width:895px; font-size:13px;}
+.link dl dd a{ padding-right:15px; color:#fff;}

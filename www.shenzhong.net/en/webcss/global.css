@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#4c4c4c; line-height:20px;}
+body,html,div,span,p,h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,a,img,em,label,input,textarea { margin:0; padding:0;}
+form{ display:inline;}
+ul,li { list-style:none;}
+h1,h2,h3,h4,h5,h6 { font-weight:normal;}
+a { text-decoration:none; color:#333;}
+p { line-height:22px;}
+img { border:none;}
+em,i { font-style:normal;}
+.del_float{ clear:both; font-size:0;}
+html { zoom: expression(function(ele){ ele.style.zoom = "1"; document.execCommand("BackgroundImageCache", false, true); }(this)); }
+
+
+input, button, textarea, optgroup, option { font-style: inherit; font-weight: inherit;border:0 none;vertical-align: middle;}
+input, button, textarea, select { font-size: 100%;}
+input, textarea { resize:none; border:none;}
+.web{ width:1000px; margin:0 auto; }
+.web1{ width:1280px; margin:0 auto; }
+
+
+/* 清楚浮动 */
+.clearfix:after{ visibility:hidden; display:block; content:""; font-size:0px; height:0px; clear:both;}
+.clearfix{*zoom:1;}
+.clear{ clear:both}
+
+
